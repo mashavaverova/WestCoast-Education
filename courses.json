@@ -1,0 +1,162 @@
+{
+  "courses": [
+    {
+      "title": "Web Development Basics!!",
+      "number": "WD101",
+      "duration": "8 weeks",
+      "startDate": "2024-02-01",
+      "location": "Onsite",
+      "imageUrl": "course2.jpg",
+      "description": "Learn the basics of web development, including HTML, CSS, and JavaScript...",
+      "description_long": "Embark on a journey to master the essential skills of web development. From crafting interactive web pages to understanding the intricacies of client-side scripting, this course is your gateway to becoming a proficient web developer.blablalbsl",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Data Science Fundamentals",
+      "imageUrl": "course3.jpg",
+      "number": "DS101",
+      "description": "Explore the fundamental concepts of data science, including statistics and machine learning...",
+      "description_long": "Dive into the world of data science with this comprehensive course. Uncover the principles of statistical analysis, data visualization, and machine learning. Equip yourself with the skills required to extract valuable insights from data.",
+      "duration": "12 weeks",
+      "startDate": "2024-03-10",
+      "location": "Online",
+      "price": 5200
+    },
+    {
+      "id": "4",
+      "title": "Graphic Design Essentials",
+      "imageUrl": "course4.jpg",
+      "number": "GD101",
+      "description": "Learn the essential principles of graphic design and creative visual communication...",
+      "description_long": "Immerse yourself in the world of graphic design. From mastering design software to understanding color theory and layout principles, this course will unleash your creativity and pave the way for a successful career in design.",
+      "duration": "6 weeks",
+      "startDate": "2024-04-02",
+      "location": "Online",
+      "price": 4500
+    },
+    {
+      "id": "5",
+      "title": "Introduction to Psychology",
+      "imageUrl": "course5.jpg",
+      "number": "PSY101",
+      "description": "An introduction to the basic concepts and theories in the field of psychology...",
+      "description_long": "Embark on a fascinating journey into the human mind with this introductory psychology course. Explore foundational concepts, theories, and methodologies that form the basis of modern psychology.",
+      "duration": "9 weeks",
+      "startDate": "2024-05-15",
+      "location": "Onsite",
+      "price": 3100
+    },
+    {
+      "id": "6",
+      "title": "Digital Marketing Strategies",
+      "imageUrl": "course6.jpg",
+      "number": "DM101",
+      "description": "Explore effective digital marketing strategies, including social media and content marketing...",
+      "description_long": "Uncover the secrets of successful digital marketing. From crafting compelling content to leveraging the power of social media, this course will equip you with the skills needed to thrive in the dynamic world of digital marketing.",
+      "duration": "7 weeks",
+      "startDate": "2024-06-01",
+      "location": "Onsite",
+      "price": 3500
+    },
+    {
+      "id": "7",
+      "title": "Mobile App Development",
+      "imageUrl": "course7.jpg",
+      "number": "MAD101",
+      "description": "Learn the basics of mobile app development using popular frameworks...",
+      "description_long": "Embark on a hands-on journey into mobile app development. From building user-friendly interfaces to implementing functionality with popular frameworks, this course will kickstart your career in app development.",
+      "duration": "11 weeks",
+      "startDate": "2024-07-10",
+      "location": "Online",
+      "price": 8000
+    },
+    {
+      "id": "8",
+      "title": "English Literature Classics",
+      "imageUrl": "course8.jpg",
+      "number": "ELC101",
+      "description": "Explore classic works of English literature and literary analysis...",
+      "description_long": "Dive into the rich world of English literature classics. Analyze timeless works, understand literary techniques, and gain insights into the cultural and historical context that shaped these masterpieces.",
+      "duration": "8 weeks",
+      "startDate": "2024-08-02",
+      "location": "Onsite",
+      "price": 1300
+    },
+    {
+      "id": "9",
+      "title": "Financial Planning and Investments",
+      "imageUrl": "course9.jpg",
+      "number": "FPI101",
+      "description": "Understand the principles of financial planning, investments, and wealth management...",
+      "description_long": "Master the art of financial planning and wealth management. From understanding investment strategies to planning for a secure financial future, this course provides essential knowledge for effective financial management.",
+      "duration": "10 weeks",
+      "startDate": "2024-09-15",
+      "location": "Online",
+      "price": 3000
+    },
+    {
+      "id": "10",
+      "title": "Health and Fitness Essentials",
+      "imageUrl": "course10.jpg",
+      "number": "HFE101",
+      "description": "Learn about essential concepts in health and fitness, including nutrition and exercise...",
+      "description_long": "Embark on a journey to discover essential concepts in health and fitness. From understanding the principles of nutrition to designing effective exercise routines, this course empowers you to lead a healthy and active lifestyle.",
+      "duration": "6 weeks",
+      "startDate": "2024-10-01",
+      "location": "Online",
+      "price": 2000
+    },
+    {
+      "title": "course title test",
+      "number": "CT101",
+      "duration": "8 weeks",
+      "startDate": "2024-02-01",
+      "location": "Onsite",
+      "imageUrl": "no-image.png",
+      "description": "short test description",
+      "description_long": "full test description",
+      "id": "11",
+      "price": 4000
+    },
+    {
+      "id": "d8d8",
+      "title": "test typescr",
+      "number": "TS1111",
+      "duration": "6 weeks",
+      "startDate": "2024-04-02",
+      "location": "Online",
+      "imageUrl": "no-image.png",
+      "description": "blabla",
+      "description_long": "blablablatest long"
+    }
+  ],
+  "users": [
+    {
+      "id": "123",
+      "userName": "test",
+      "password": "test",
+      "name": "test",
+      "surname": "test",
+      "street": "test",
+      "suite": "test",
+      "city": "test",
+      "zipcode": "00001",
+      "email": "test@test.com",
+      "mobilePhone": "12345567"
+    },
+    {
+      "id": "648c",
+      "userName": "testtest",
+      "password": "test",
+      "name": "test",
+      "surname": "test",
+      "street": "test",
+      "suite": "test",
+      "city": "test",
+      "zipcode": "00001",
+      "email": "test@test.com",
+      "mobilePhone": "12345567"
+    }
+  ]
+}

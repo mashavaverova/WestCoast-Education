@@ -1,0 +1,48 @@
+
+main {
+    padding: 60px;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 18px;
+    }
+
+    main, .container {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Nunito Sans, sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #F5EBDF;
+  background-size: cover;
+}
+
+
+header {
+  background-image: url("/src/content/images/bg.jpg");
+  background-size: cover;
+  padding: 30px;
+  font-family: Tektur, sans-serif;
+  text-align: center;
+}
+
+footer {
+  background-image: url("/src/content/images/bg.jpg");
+  background-size: cover;
+  font-family: Nunito Sans, sans-serif;
+  font-size: 0.5em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.btn,
+#addUser,
+#admin-login-button,
+#registration-button,
+#LogIn,
+.course-button,
+.enroll-button,
+#getAllUsers, 
+#addCourse,
+.button,
+.cta-button,
+.add-course-button,
+#delete
+ {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #F5EBDF;
+  background-color: #CE4F5A;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.btn:hover,
+#delete:hover,
+#addUser:hover,
+#admin-login-button:hover,
+#registration-button:hover,
+#LogIn:hover,
+.course-button:hover,
+.enroll-button:hover,
+.back-button:hover,
+#getAllUsers:hover,
+#addCourse:hover,
+.button:hover,
+.cta-button:hover
+.add-course-button:hover {
+  background-color: #F68428;
+  color: #383431;
+}

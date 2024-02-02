@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--  FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat&family=Nunito+Sans:opsz@6..12&family=Quicksand&family=Tektur&display=swap" rel="stylesheet">
+
+<!--  CSS -->
+
+<link
+rel="stylesheet"
+href="/src/content/css/reset.css" />
+<link
+rel="stylesheet"
+href="/src/content/css/main.css" />
+<link
+rel="stylesheet"
+href="/src/content/css/top_nav.css" />
+<link rel="stylesheet" href="/src/content/css/admin.css">
+<link rel="stylesheet" href="/src/content/css/edit_course.css">
+
+<!-- SCRIPTS-->
+  <script src="/dist/dom/edit_course_dom.js" defer type="module"></script>
+
+  <title>Administrative panel</title>
+</head>
+
+
+<body>
+    <header>
+        <h2>Westcoast Education</h2>
+        <h3>Administrative panel</h3>
+        <a class="back-button" href="../index.html">Back to the site</a>
+
+    </header>
+    <main>
+       <section class="container">
+        <h1 class="page-title">Edit course</h1>
+        <div class="btn-container">
+          <button
+            id="delete"
+            class="btn btn-danger">
+            Delete course
+          </button>
+        </div>
+
+        
+        <form id="updateCourseForm">
+          <div class="form-control">
+            <label for="title">Course title</label>
+            <input
+              type="text"
+              name="title"
+              id="title"
+              placeholder="write course title" />
+          </div>      
+          <div class="form-control">
+            <label for="number">Course number</label>
+            <input
+              type="text"
+              name="number"
+              id="number"
+              placeholder="Write course number" />
+          </div>
+          <div class="form-control">
+            <label for="duration">Duration</label>
+            <input
+              type="text"
+              name="duration"
+              id="duration"
+              placeholder="Write course duration" />
+          </div>
+          <div class="form-control">
+            <label for="startDate">Start date</label>
+            <input
+              type="text"
+              name="startDate"
+              id="startDate"
+              placeholder="Write course start date" />
+          </div>
+          <div class="form-control">
+            <label for="location">Location</label>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              placeholder="Write course location" />
+          </div>
+          <div class="form-control">
+            <label for="imageUrl">Image url</label>
+            <input
+              type="text"
+              name="imageUrl"
+              id="imageUrl"
+              value="no-image.png"
+              placeholder="Write course image url" />
+          </div>
+          <div class="form-control">
+            <label for="description"> Short description</label>
+            <textarea
+              name="description"
+              id="description"
+              placeholder="Write short course description"
+              cols="30"
+              rows="2"></textarea>
+          </div>
+          <div class="form-control">
+            <label for="description_long">Full description</label>
+            <textarea
+              name="description_long"
+              id="description_long"
+              placeholder="Write full course description"
+              cols="30"
+              rows="10"></textarea>
+          </div>
+          <div class="form-control">
+            <button
+              type="submit"
+              class="btn">
+              Save
+            </button>
+          </div>
+        
+        </form>
+      </section>
+    </main>
+
+
+    <footer>
+      <div class="foter">
+        <p>Westcoast Education &copy; Copyright 2024. All rights reserved.</p>
+      </div>
+    </footer>
+    
+</body>
+</html>

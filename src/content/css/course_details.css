@@ -1,0 +1,23 @@
+main {
+    padding: 20px;
+  }
+
+  #course_details {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .course-info p {
+    margin: 10px 0;
+  }
+  
+  .course-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  

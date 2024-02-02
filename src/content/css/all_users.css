@@ -1,0 +1,29 @@
+main {
+    text-align: center;
+    padding: 40px;
+  }
+
+  back-button {
+    background-color: #88C8E1;
+    color: #383431;
+  }
+
+  #courses_admin_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  #courses_admin_list div {
+    flex: 1 0 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  #courses_admin_list div:hover {
+    background-color: #ffdfce;
+  }

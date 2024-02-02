@@ -1,0 +1,54 @@
+h2 {
+    font-family: Tektur, sans-serif;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #F5EBDF;
+    background-color: #CE4F5A;
+    transition: background-color 0.3s;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #F68428;
+    color: #383431;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #F5EBDF;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
