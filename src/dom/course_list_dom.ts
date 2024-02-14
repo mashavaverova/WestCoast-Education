@@ -1,7 +1,5 @@
 import { CourseModel } from "../models/BaseModel.js";
 import { getAllCourses } from "../services/courses.js";
-import { fetchData } from "../utilities/http.js";
-import { ResponseModel } from "../models/ResponseModel.js";
 
 
 async function initPage() {

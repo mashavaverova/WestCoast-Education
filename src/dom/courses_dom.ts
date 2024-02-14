@@ -1,7 +1,4 @@
 import { CourseModel } from "../models/BaseModel.js";
-import { ResponseModel } from "../models/ResponseModel.js";
-import { ListModel } from "../models/ListModels.js";
-import { fetchData } from "../utilities/http.js";
 import { getAllCourses } from "../services/courses.js";
 
 async function initPage() {

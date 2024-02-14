@@ -4,6 +4,7 @@ import { ResponseModel } from "../models/ResponseModel.js";
 import { fetchData } from "../utilities/http.js";
 
 
+// get all courses
 export async function getAllCourses(): Promise<ResponseModel> {
     const result = await fetchData<ResponseModel>('courses');
     return result;

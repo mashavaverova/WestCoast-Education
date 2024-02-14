@@ -1,3 +1,4 @@
+
 export const state = {
     api: {
         baseUrl: 'http://localhost:3000',
@@ -5,7 +6,7 @@ export const state = {
 };
 
 
-
+// Convert FormData to JSON
 
 const convertFormDataToJson = (formData: FormData): Record<string, string> => {
     const data: Record<string, string> = {};

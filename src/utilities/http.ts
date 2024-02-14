@@ -1,5 +1,6 @@
 import { state } from '../utilities/config.js';
 
+
 export async function fetchData<T>(
     endpoint: string, 
     criteria?: string
@@ -26,3 +27,4 @@ export async function fetchData<T>(
         throw new Error(`${error}`);
     }
 }
+
