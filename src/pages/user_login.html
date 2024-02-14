@@ -36,6 +36,7 @@
 
 <!--SCRIPTS -->
 <script src="/dist/navigation.js" defer type="module"></script>
+<script src="/dist/dom/user_login.js" defer type="module"></script>
   
 <title>Westcoast Education | Login </title>
 </head>
@@ -60,37 +61,33 @@
     </header>
 
 
-  <main>
-
+ <main>
     <h2>Welcome to the Login Page</h2>
 
-    
-    <main>
-        <form id="userLogin">
-     <div class="form-control">
+    <form id="userLogin">
+      <div class="form-control">
         <label for="userName">User name:</label>
         <input
         type="text" 
         id="userName" 
-        name="userName" />
-
+        name="userName"
+        autocomplete="current-username" />
       </div>
+
       <div class="form-control">
         <label for="password">Password:</label>
         <input 
         type="password" 
         id="password" 
-        name="password" />
+        name="password"
+        autocomplete="current-password" />
       </div>
 
       <div class="form-control">
-        <button id="addUser">Submit</button>
+        <button id="loginButton">Submit</button>
       </div>
     </form>
-    
-  
-
-  </main>
+ </main>
 
     <footer>
       <div class="foter">

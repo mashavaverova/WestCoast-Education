@@ -39,7 +39,7 @@ function updateCourseDetails(course) {
     const price = createParagraph(`Price: ${course.price}`);
     const enrollButton = createElement('button', 'Enroll', { class: 'enroll-button' });
     enrollButton.addEventListener('click', () => {
-        console.log('Enroll button clicked');
+        //console.log('Enroll button clicked');
         window.location.href = '/src/pages/registration.html';
     });
     appendChildren(info, enrollButton, number, description, duration, startDate, location);

@@ -8,6 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import { fetchData } from "../utilities/http.js";
+// getCourseDetails 
 export function getCourseDetails(id) {
     return __awaiter(this, void 0, void 0, function* () {
         const result = yield fetchData(`courses/` + id);

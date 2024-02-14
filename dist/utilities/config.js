@@ -3,6 +3,7 @@ export const state = {
         baseUrl: 'http://localhost:3000',
     },
 };
+// Convert FormData to JSON
 const convertFormDataToJson = (formData) => {
     const data = {};
     formData.forEach((value, key) => {
